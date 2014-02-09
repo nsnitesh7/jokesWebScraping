@@ -2,6 +2,8 @@ import pickle
 import urllib2
 from bs4 import BeautifulSoup
 import types
+import sys
+sys.setrecursionlimit(50000)
 
 jokesList={}
 
