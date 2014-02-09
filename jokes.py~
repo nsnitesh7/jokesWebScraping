@@ -66,6 +66,7 @@ items = list(jokesList.items())
 with open('jokes.pickle', 'wb') as handle:
 	pickle.dump(items, handle)
 
+
 #read from pickle data structure
 #with open('jokes.pickle', 'rb') as handle:
 #  b = pickle.load(handle)
